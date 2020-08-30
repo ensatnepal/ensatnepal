@@ -136,22 +136,18 @@
             <img
               src="./assets/images/screenshot/two.jpg"
               alt="Owl Image"
-              style="height: 100%;"
+              style="height: 100%"
             />
           </div>
           <div class="item">
             <img
               src="./assets/images/screenshot/three.jpg"
               alt="Owl Image"
-              style="height: 100%; "
+              style="height: 100%"
             />
           </div>
           <div class="item">
-            <img
-              src="./assets/images/screenshot/four.jpg"
-              alt="Owl Image"
-             
-            />
+            <img src="./assets/images/screenshot/four.jpg" alt="Owl Image" />
           </div>
           <div class="item">
             <img
@@ -161,26 +157,49 @@
             />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/six.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/six.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/seven.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/seven.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/eight.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/eight.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/nine.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/nine.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/ten.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/ten.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
           <div class="item">
-            <img src="./assets/images/screenshot/eleven.jpg" alt="Owl Image" style="height: 100%" />
+            <img
+              src="./assets/images/screenshot/eleven.jpg"
+              alt="Owl Image"
+              style="height: 100%"
+            />
           </div>
         </div>
         <!-- fdlaskjds -->
-
       </div>
     </section>
 
@@ -533,7 +552,11 @@
               <a href="#" class="icon-side"
                 ><span
                   class="fa fa-twitter"
-                  style="padding: 15px 12px; font-size: 17.4px; color: grey"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
                   aria-hidden="true"
                 ></span
               ></a>
@@ -541,7 +564,11 @@
               <a href="#">
                 <span
                   class="fa fa-linkedin"
-                  style="padding: 15px 12px; font-size: 17.4px; color: grey"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
                   aria-hidden="true"
                 ></span
               ></a>
@@ -549,14 +576,22 @@
               <a href="#">
                 <span
                   class="fa fa-facebook"
-                  style="padding: 15px 12px; font-size: 17.4px; color: grey"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
                   aria-hidden="true"
                 ></span
               ></a>
-              <a href="#">
+              <a href="#" class="icon-side">
                 <span
                   class="fa fa-instagram"
-                  style="padding: 15px 12px; font-size: 17.4px; color: grey"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
                   aria-hidden="true"
                 ></span
               ></a>
@@ -584,8 +619,8 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="./scss/OwlCarousel/docs/assets/vendors/jquery.min.js"></script>
-    <script src="./scss/OwlCarousel/dist/owl.carousel.js"></script>
+
+    <script src="./js/owl.carousel.min.js"></script>
     <script>
       // $(document).ready(function () {
       //   $("#owl-demo").owlCarousel({
@@ -598,25 +633,43 @@
       // });
       $(document).ready(function () {
         $("#owl-demo").owlCarousel({
-         //this is just looping 
-          loop:true, 
-          //this is navigation arrows         
-         nav: true,
-         navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-          itemsDesktop:[1199,3],
+          //this is just looping
+          loop: true,
+          //this is navigation arrows
+          nav: true,
+          navText: [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+          ],
+          itemsDesktop: [1199, 3],
           autoplay: true,
           autoplayTimeout: 1650,
           autoplayHoverPause: true,
-        
-           
-        
-          
+
+          //RESPONSIVE not doing now
+          // responsiveClass: true,
+          // responsive: {
+          //   0: {
+          //     items: 1,
+          //     nav: true,
+          //navText:['<i></i>'],
+          // ........
+          //   },
+          //   600: {
+          //     items: 3,
+          //     nav: false,
+          //   },
+          //   1000: {
+          //     items: 5,
+          //     nav: true,
+          //     loop: false,
+          //   },
+          // },
         });
       });
     </script>
     <style>
       #owl-demo .item {
-      
         padding: 30px 0px;
         margin: 10px;
         color: #fff;
@@ -624,29 +677,31 @@
         -moz-border-radius: 3px;
         border-radius: 3px;
         text-align: center;
-        
       }
       .owl-prev {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 40%;
-    margin-left: -20px;
-    display: block !important;
-    border:0px solid black;
-    
-}
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        margin-left: -20px;
+        display: block !important;
+        border: 0px solid black;
+      }
 
-.owl-next {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 40%;
-    right: -25px;
-    display: block !important;
-    border:0px solid black;
-}
-.owl-prev i, .owl-next i {transform : scale(5); color: rgb(151, 151, 151);}
+      .owl-next {
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        right: -25px;
+        display: block !important;
+        border: 0px solid black;
+      }
+      .owl-prev i,
+      .owl-next i {
+        transform: scale(5);
+        color: rgb(151, 151, 151);
+      }
     </style>
   </body>
 </html>
