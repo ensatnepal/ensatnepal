@@ -1,3 +1,9 @@
 @import 'config/variables';
+@import 'config/functions';
+
+@import 'components/common';
 
 @import 'components/header';
+@import 'components/banner';
+@import 'components/about';
+@import 'components/features';
