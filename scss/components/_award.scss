@@ -1,0 +1,18 @@
+.award {
+  margin: 120px 0;
+  h1 {
+    font-size: 52px;
+    text-align: center;
+    background-color: $primaryColor-light;
+    display: inline-block;
+    padding: 6.5px 22px;
+    margin-bottom: 50px;
+  }
+  &-image {
+    width: 100%;
+    transition: 0.9s ease-in;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

@@ -1,1 +1,141 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.teams {
+  margin: 100px 0;
+}
+
+.teams h1 {
+  font-size: 52px;
+  margin-bottom: 75px;
+  background: #b7ccda;
+  display: inline-block;
+  padding: 7px 24px;
+}
+
+.teams .picture-box {
+  height: 362px;
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.teams .picture-box .team-image {
+  width: 234px;
+  -webkit-box-shadow: 5px 5px 20px #b7ccda, -2px -2px 20px rgba(252, 55, 55, 0.274);
+          box-shadow: 5px 5px 20px #b7ccda, -2px -2px 20px rgba(252, 55, 55, 0.274);
+}
+
+.teams .picture-box .team-name-profile {
+  height: 135px;
+  width: 230px;
+  position: absolute;
+  bottom: 0;
+  left: 59px;
+  border-radius: 3.8px;
+  background: #f7fbfd;
+  -webkit-box-shadow: 20px 20px 60px #b5b8b9, -1px -2px 8px rgba(143, 142, 142, 0.384);
+          box-shadow: 20px 20px 60px #b5b8b9, -1px -2px 8px rgba(143, 142, 142, 0.384);
+  padding: 10px 5px 5px 20px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.teams .picture-box .team-name-profile:hover {
+  background-color: #b3c8d6;
+}
+
+.teams .picture-box .team-name-profile h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.award {
+  margin: 120px 0;
+}
+
+.award h1 {
+  font-size: 52px;
+  text-align: center;
+  background-color: #b7ccda;
+  display: inline-block;
+  padding: 6.5px 22px;
+  margin-bottom: 50px;
+}
+
+.award-image {
+  width: 100%;
+  -webkit-transition: 0.9s ease-in;
+  transition: 0.9s ease-in;
+}
+
+.award-image:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.contact {
+  margin: 60px 0;
+}
+
+.contact h1 {
+  font-size: 52px;
+  text-align: center;
+  background-color: #b7ccda;
+  display: inline-block;
+  padding: 6.5px 22px;
+  margin-bottom: 75px;
+}
+
+.contact .contact-label {
+  border: none;
+  padding: 24px 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  background: #e4e4e4dc;
+  font-size: 14px;
+  -webkit-box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
+          box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact .contact-button {
+  padding: 20px 35px;
+  width: 200px;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border: 4.5px solid #292828;
+  background-color: white;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.contact .contact-button:hover {
+  background-color: #b7ccda;
+}
+
+.contact .contact-icons-bar {
+  margin: auto;
+  width: 77px;
+  padding: 18px 18px;
+  background-color: #222222;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.contact .contact-icons-bar .icon-side:hover {
+  color: #b7ccda;
+}
+
+.screenshots {
+  margin: 100px;
+}
+
+.screenshots h1 {
+  font-size: 52px;
+  text-align: center;
+  background-color: #b7ccda;
+  display: inline-block;
+  padding: 6.5px 22px;
+  margin-bottom: 75px;
+}
+/*# sourceMappingURL=style.css.map */

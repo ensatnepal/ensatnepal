@@ -1,0 +1,45 @@
+.teams {
+  margin: 100px 0;
+  h1 {
+    font-size: 52px;
+    // text-align: center;
+    margin-bottom: 75px;
+    background: $primaryColor-light;
+    display: inline-block;
+    padding: 7px 24px;
+  }
+
+  .picture-box {
+    height: 362px;
+    position: relative;
+    margin-bottom: 28px;
+    // background-color: rgba(102, 51, 153, 0.349);
+
+    .team-image {
+      width: 234px;
+      box-shadow: 5px 5px 20px $primaryColor-light,
+        -2px -2px 20px rgba(252, 55, 55, 0.274);
+    }
+    .team-name-profile {
+      height: 135px;
+      width: 230px;
+      position: absolute;
+      bottom: 0;
+      left: 59px;
+      border-radius: 3.8px;
+      background: #f7fbfd;
+      box-shadow: 20px 20px 60px #b5b8b9,
+        -1px -2px 8px rgba(143, 142, 142, 0.384);
+      padding: 10px 5px 5px 20px;
+      transition: 0.4s ease;
+      &:hover {
+        background-color: rgb(179, 200, 214);
+      }
+      h3 {
+        font-family: Roboto, sans-serif;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
