@@ -7,6 +7,7 @@
     background: $primaryColor-light;
     display: inline-block;
     padding: 7px 24px;
+    margin-top: 100px;
   }
 
   .picture-box {
@@ -19,6 +20,7 @@
       width: 234px;
       box-shadow: 5px 5px 20px $primaryColor-light,
         -2px -2px 20px rgba(252, 55, 55, 0.274);
+      border-radius: 4.2px;
     }
     .team-name-profile {
       height: 135px;
