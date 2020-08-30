@@ -1,5 +1,6 @@
 .contact {
   margin: 60px 0;
+
   h1 {
     font-size: 52px;
     text-align: center;
@@ -39,7 +40,7 @@
     background-color: #222222;
     font-size: 24px;
     margin-top: 8px;
-    .icon-side {
+    .icon-side span {
       &:hover {
         color: $primaryColor-light;
       }
