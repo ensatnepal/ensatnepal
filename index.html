@@ -110,7 +110,7 @@
               
             </div>
             <div class="row about-cards">
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6 col-sm-12 my-3">
                     <div class="card">
                         <img class="card-img-top" src="assets/images/global.png" alt="Card image cap">
                         <div class="card-body">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6 col-sm-12 my-3">
                     <div class="card">
                         <img class="card-img-top" src="assets/images/solar.png" alt="Card image cap">
                         <div class="card-body">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-12 col-sm-12 my-3">
                     <div class="card">
                         <img class="card-img-top" src="assets/images/graph.png" alt="Card image cap">
                         <div class="card-body">
@@ -730,38 +730,54 @@
       // });
       $(document).ready(function () {
         $("#owl-demo").owlCarousel({
-          //this is just looping
-          loop: true,
-          //this is navigation arrows
-          nav: true,
-          navText: [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>',
-          ],
-          itemsDesktop: [1199, 3],
-          autoplay: true,
-          autoplayTimeout: 1650,
-          autoplayHoverPause: true,
+          
 
-          //RESPONSIVE not doing now
-          // responsiveClass: true,
-          // responsive: {
-          //   0: {
-          //     items: 1,
-          //     nav: true,
-          //navText:['<i></i>'],
-          // ........
-          //   },
-          //   600: {
-          //     items: 3,
-          //     nav: false,
-          //   },
-          //   1000: {
-          //     items: 5,
-          //     nav: true,
-          //     loop: false,
-          //   },
-          // },
+          // RESPONSIVE not doing now
+          responsiveClass: true,
+          responsive: {
+            0: {
+             //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:1,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+            600: {
+              //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:2,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+            1000: {
+             //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:3,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+          },
         });
       });
     </script>
