@@ -65,6 +65,40 @@ header nav.bg-light {
   }
 }
 
+.interface {
+  margin: 100px 0;
+}
+
+.interface h2 {
+  color: #6286b3;
+  margin-bottom: 30px;
+}
+
+.interface .carousel-indicators li {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #6f6f796c;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.interface .carousel-indicators .active {
+  height: 19px;
+  width: 19px;
+  background-color: #949494;
+}
+
+.interface .outer {
+  -webkit-box-shadow: 2px 4px 50px #b7ccda;
+          box-shadow: 2px 4px 50px #b7ccda;
+}
+
 .teams {
   margin: 100px 0;
 }

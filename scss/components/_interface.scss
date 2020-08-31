@@ -1,0 +1,27 @@
+.interface {
+  margin: 100px 0;
+  h2 {
+    color: $primaryColor;
+    margin-bottom: 30px;
+  }
+  .carousel-indicators li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #6f6f796c;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .carousel-indicators .active {
+    height: 19px;
+    width: 19px;
+    background-color: rgb(148, 148, 148);
+  }
+  .outer {
+    box-shadow: 2px 4px 50px $primaryColor-light;
+  }
+}
