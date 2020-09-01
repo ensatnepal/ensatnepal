@@ -100,7 +100,9 @@ header nav.bg-light {
 }
 
 .teams {
-  margin: 100px 0;
+  margin: 100px 0 10px 0;
+  background-color: #f7f9fa;
+  padding-bottom: 80px;
 }
 
 .teams h1 {
@@ -232,7 +234,8 @@ header nav.bg-light {
 }
 
 .screenshots {
-  margin: 100px;
+  padding: 100px 0;
+  background-color: #f7f9fa;
 }
 
 .screenshots h1 {
