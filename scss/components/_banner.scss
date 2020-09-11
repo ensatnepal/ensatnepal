@@ -1,37 +1,94 @@
-.banner{
-    background: linear-gradient($bannerGradientStartColor, $bannerGradientEndColor);
-    padding-top: 56px;
-    height: 95vh;
-    .banner-text{
-        h1{
-            @include formatText(48px, 500, 60px, $headingColor);
-        }
-        a{
-            @include formatText(18px, 500, 32px, $bannerActionColor);
-            display: inline-block;
-            padding-top: 20px;
-            text-decoration: none;
-        }
+.banner {
+  position: relative;
+  // background: linear-gradient($bannerGradientStartColor, $bannerGradientEndColor);
+  background-image: url("../assets/images/banner/Starry.jpg");
+  background-size: cover;
+
+  padding-top: 56px;
+  height: 95vh;
+  .banner-text {
+    h1 {
+      @include formatText(48px, 500, 60px, $bannerHeadingColor);
+      text-shadow: 2px 2px rgba(19, 21, 26, 0.301);
     }
-    .banner-image-box{
-        img{
-            width: 100%;
-        }
+    a {
+      @include formatText(18px, 500, 32px, $bannerColor);
+      display: inline-block;
+      padding-top: 20px;
+      text-decoration: none;
+      &:hover {
+        color: $bannerHeadingColor;
+      }
     }
+  }
+  .banner-image-box {
+    img {
+      width: 100%;
+    }
+  }
+  .earth {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .rocket {
+    position: absolute;
+    right: 0;
+    bottom: 320px;
+
+    animation: rocketss 16s linear infinite;
+  }
+  .satellites {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    animation: satellites 20s linear infinite;
+  }
 }
 
-@media(max-width: 767px){
-    .banner{
-        .banner-text{
-            h1{
-                @include formatText(40px, 500, 50px, $headingColor);
-            }
-            a{
-                @include formatText(16px, 500, 20px, $bannerActionColor);
-                display: inline-block;
-                padding-top: 20px;
-                text-decoration: none;
-            }
-        }
+@media (max-width: 767px) {
+  .banner {
+    .banner-text {
+      h1 {
+        @include formatText(40px, 500, 50px, $headingColor);
+      }
+      a {
+        @include formatText(16px, 500, 20px, $bannerActionColor);
+        display: inline-block;
+        padding-top: 20px;
+        text-decoration: none;
+      }
     }
+    #earth {
+      display: none;
+    }
+    #rocket {
+      display: none;
+    }
+    #satellites {
+      display: none;
+    }
+  }
+}
+
+@keyframes rocketss {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(-70rem, -22rem);
+  }
+}
+
+@keyframes satellites {
+  0% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(213deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
 }

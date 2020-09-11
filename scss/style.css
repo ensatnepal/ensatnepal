@@ -27,11 +27,12 @@ header nav {
 }
 
 header nav a.navbar-brand {
-  font-size: 32px;
+  font-size: 37px;
   font-weight: 600;
   line-height: 36px;
   color: #5f82ad;
   color: #5f82ad !important;
+  text-shadow: 0.5px 0.5px rgba(19, 21, 26, 0.527);
 }
 
 header nav button.navbar-toggler {
@@ -40,14 +41,16 @@ header nav button.navbar-toggler {
 
 header nav ul.navbar-nav li.nav-item a.nav-link {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
   color: rgba(0, 0, 0, 0.7);
   padding-left: 20px;
+  color: #5f82ad;
+  text-shadow: 0.5px 0.5px rgba(32, 32, 32, 0.637);
 }
 
 header nav ul.navbar-nav li.nav-item a.nav-link:hover {
-  color: #5f82ad;
+  color: #f1d891;
 }
 
 header nav ul.navbar-nav li.nav-item a.nav-link.active {
@@ -256,11 +259,12 @@ header nav {
 }
 
 header nav a.navbar-brand {
-  font-size: 32px;
+  font-size: 37px;
   font-weight: 600;
   line-height: 36px;
   color: #5f82ad;
   color: #5f82ad !important;
+  text-shadow: 0.5px 0.5px rgba(19, 21, 26, 0.527);
 }
 
 header nav button.navbar-toggler {
@@ -269,14 +273,16 @@ header nav button.navbar-toggler {
 
 header nav ul.navbar-nav li.nav-item a.nav-link {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
   color: rgba(0, 0, 0, 0.7);
   padding-left: 20px;
+  color: #5f82ad;
+  text-shadow: 0.5px 0.5px rgba(32, 32, 32, 0.637);
 }
 
 header nav ul.navbar-nav li.nav-item a.nav-link:hover {
-  color: #5f82ad;
+  color: #f1d891;
 }
 
 header nav ul.navbar-nav li.nav-item a.nav-link.active {
@@ -295,8 +301,9 @@ header nav.bg-light {
 }
 
 .banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(#effaff), to(#958bc5));
-  background: linear-gradient(#effaff, #958bc5);
+  position: relative;
+  background-image: url("../assets/images/banner/Starry.jpg");
+  background-size: cover;
   padding-top: 56px;
   height: 95vh;
 }
@@ -305,21 +312,48 @@ header nav.bg-light {
   font-size: 48px;
   font-weight: 500;
   line-height: 60px;
-  color: rgba(14, 86, 104, 0.79);
+  color: #f1d891;
+  text-shadow: 2px 2px rgba(19, 21, 26, 0.301);
 }
 
 .banner .banner-text a {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
-  color: rgba(78, 78, 78, 0.76);
+  color: #fefaef;
   display: inline-block;
   padding-top: 20px;
   text-decoration: none;
 }
 
+.banner .banner-text a:hover {
+  color: #f1d891;
+}
+
 .banner .banner-image-box img {
   width: 100%;
+}
+
+.banner .earth {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.banner .rocket {
+  position: absolute;
+  right: 0;
+  bottom: 320px;
+  -webkit-animation: rocketss 16s linear infinite;
+          animation: rocketss 16s linear infinite;
+}
+
+.banner .satellites {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  -webkit-animation: satellites 20s linear infinite;
+          animation: satellites 20s linear infinite;
 }
 
 @media (max-width: 767px) {
@@ -337,6 +371,67 @@ header nav.bg-light {
     display: inline-block;
     padding-top: 20px;
     text-decoration: none;
+  }
+  .banner #earth {
+    display: none;
+  }
+  .banner #rocket {
+    display: none;
+  }
+  .banner #satellites {
+    display: none;
+  }
+}
+
+@-webkit-keyframes rocketss {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-70rem, -22rem);
+            transform: translate(-70rem, -22rem);
+  }
+}
+
+@keyframes rocketss {
+  from {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-transform: translate(-70rem, -22rem);
+            transform: translate(-70rem, -22rem);
+  }
+}
+
+@-webkit-keyframes satellites {
+  0% {
+    -webkit-transform: rotate(150deg);
+            transform: rotate(150deg);
+  }
+  50% {
+    -webkit-transform: rotate(213deg);
+            transform: rotate(213deg);
+  }
+  100% {
+    -webkit-transform: rotate(150deg);
+            transform: rotate(150deg);
+  }
+}
+
+@keyframes satellites {
+  0% {
+    -webkit-transform: rotate(150deg);
+            transform: rotate(150deg);
+  }
+  50% {
+    -webkit-transform: rotate(213deg);
+            transform: rotate(213deg);
+  }
+  100% {
+    -webkit-transform: rotate(150deg);
+            transform: rotate(150deg);
   }
 }
 
