@@ -50,10 +50,10 @@
   .banner {
     .banner-text {
       h1 {
-        @include formatText(40px, 500, 50px, $headingColor);
+        @include formatText(40px, 500, 50px, $bannerHeadingColor);
       }
       a {
-        @include formatText(16px, 500, 20px, $bannerActionColor);
+        @include formatText(16px, 500, 20px, $bannerColor);
         display: inline-block;
         padding-top: 20px;
         text-decoration: none;
