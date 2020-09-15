@@ -103,9 +103,7 @@ header nav.bg-light {
 }
 
 .teams {
-  margin: 100px 0 10px 0;
-  background-color: #f7f9fa;
-  padding-bottom: 80px;
+  margin: 100px 0;
 }
 
 .teams h1 {
@@ -364,13 +362,13 @@ header nav.bg-light {
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
-    color: #f1d891;
+    color: rgba(14, 86, 104, 0.79);
   }
   .banner .banner-text a {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    color: #fefaef;
+    color: rgba(78, 78, 78, 0.76);
     display: inline-block;
     padding-top: 20px;
     text-decoration: none;
