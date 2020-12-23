@@ -156,7 +156,7 @@
     </section>
     <!-- FEATURES SECTION -->
     
-    <section class="features" id="features">
+    <section class="features" id="features" style="padding-left: 20px; padding-right: 20px;">
       <div class="container">
         <h3 class="text-center">Features</h3>
         <div class="row">
@@ -521,7 +521,7 @@
       <!-- HARDWARDE SECTION STARTS -->
       <section class="screenshots">
         
-          <div class="row m-0">
+          <div class="row m-0" style="padding: 0 30px;">
             <div class="col-lg-10 col-sm-12 m-auto">
 <!--           <h1>Hardware</h1> -->
           <h3 class="text-center" style="margin-bottom:20px;">Hardware</h3>
@@ -698,19 +698,19 @@
             
             
           </div>
-          <div class="col-xl-4 col-md-12 col-sm-12 text-center">
+          <div class="col-xl-4 col-md-12 col-sm-12 text-center text-align-right-mobile">
             <h3>Explore</h3>
             <div class="footer-first-explore">
               <span class="fa fa-home"></span>
-              <span class="footer-first-explore-inside">Home</span>
+              <span class="footer-first-explore-inside"><a href="#" style="color:black;">Home</a></span>
             </div>
-            <div class="footer-first-explore" style="margin-left: 18px;">
-              <span class="fa fa-phone" ></span>
-              <span class="footer-first-explore-inside">Contact</span>
+            <div class="footer-first-explore">
+              <span class="fa fa-envelope" ></span>
+              <span class="footer-first-explore-inside"><a href="#contact" style="color:black;">Email</a></span>
             </div>
             <div class="footer-first-explore">
               <span class="fa fa-circle"></span>
-              <span class="footer-first-explore-inside">About</span>
+              <span class="footer-first-explore-inside"><a href="#about" style="color:black;">About</a></span>
             </div>
           </div>
         </div>
@@ -843,6 +843,13 @@
         transform: scale(5);
         color: rgb(151, 151, 151);
       }
+
+        @media (max-width:1200px) {
+          .text-align-right-mobile{
+            text-align: left !important;
+          }
+        }
+      
     </style>
   </body>
 </html>
