@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
@@ -58,8 +58,10 @@ header nav ul.navbar-nav li.nav-item a.nav-link.active {
 }
 
 header nav.bg-light {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137),
+    0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137),
+    0 6px 20px 0 rgba(0, 0, 0, 0.041);
 }
 
 @media (max-width: 991px) {
@@ -88,7 +90,7 @@ header nav.bg-light {
   border-radius: 50%;
   background-color: #6f6f796c;
   -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .interface .carousel-indicators .active {
@@ -99,7 +101,7 @@ header nav.bg-light {
 
 .interface .outer {
   -webkit-box-shadow: 2px 4px 50px #b7ccda;
-          box-shadow: 2px 4px 50px #b7ccda;
+  box-shadow: 2px 4px 50px #b7ccda;
 }
 
 .teams {
@@ -123,8 +125,9 @@ header nav.bg-light {
 
 .teams .picture-box .team-image {
   width: 234px;
-  -webkit-box-shadow: 5px 5px 20px #b7ccda, -2px -2px 20px rgba(252, 55, 55, 0.274);
-          box-shadow: 5px 5px 20px #b7ccda, -2px -2px 20px rgba(252, 55, 55, 0.274);
+  -webkit-box-shadow: 5px 5px 20px #b7ccda,
+    -2px -2px 20px rgba(252, 55, 55, 0.274);
+  box-shadow: 5px 5px 20px #b7ccda, -2px -2px 20px rgba(252, 55, 55, 0.274);
   border-radius: 4.2px;
 }
 
@@ -136,8 +139,9 @@ header nav.bg-light {
   left: 59px;
   border-radius: 3.8px;
   background: #f7fbfd;
-  -webkit-box-shadow: 20px 20px 60px #b5b8b9, -1px -2px 8px rgba(143, 142, 142, 0.384);
-          box-shadow: 20px 20px 60px #b5b8b9, -1px -2px 8px rgba(143, 142, 142, 0.384);
+  -webkit-box-shadow: 20px 20px 60px #b5b8b9,
+    -1px -2px 8px rgba(143, 142, 142, 0.384);
+  box-shadow: 20px 20px 60px #b5b8b9, -1px -2px 8px rgba(143, 142, 142, 0.384);
   padding: 10px 5px 5px 20px;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
@@ -175,7 +179,7 @@ header nav.bg-light {
 
 .award-image:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .contact {
@@ -200,7 +204,7 @@ header nav.bg-light {
   background: #e4e4e4dc;
   font-size: 14px;
   -webkit-box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
-          box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
+  box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
   margin-bottom: 30px;
   width: 100%;
 }
@@ -251,7 +255,7 @@ header nav.bg-light {
 .screenshots .hardware-image {
   height: 270px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 header nav {
@@ -291,8 +295,10 @@ header nav ul.navbar-nav li.nav-item a.nav-link.active {
 }
 
 header nav.bg-light {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137),
+    0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137),
+    0 6px 20px 0 rgba(0, 0, 0, 0.041);
 }
 
 @media (max-width: 991px) {
@@ -346,7 +352,7 @@ header nav.bg-light {
   right: 0;
   bottom: 320px;
   -webkit-animation: rocketss 16s linear infinite;
-          animation: rocketss 16s linear infinite;
+  animation: rocketss 16s linear infinite;
 }
 
 .banner .satellites {
@@ -354,7 +360,7 @@ header nav.bg-light {
   left: 10px;
   top: 10px;
   -webkit-animation: satellites 20s linear infinite;
-          animation: satellites 20s linear infinite;
+  animation: satellites 20s linear infinite;
 }
 
 @media (max-width: 767px) {
@@ -387,52 +393,52 @@ header nav.bg-light {
 @-webkit-keyframes rocketss {
   from {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   to {
     -webkit-transform: translate(-70rem, -22rem);
-            transform: translate(-70rem, -22rem);
+    transform: translate(-70rem, -22rem);
   }
 }
 
 @keyframes rocketss {
   from {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   to {
     -webkit-transform: translate(-70rem, -22rem);
-            transform: translate(-70rem, -22rem);
+    transform: translate(-70rem, -22rem);
   }
 }
 
 @-webkit-keyframes satellites {
   0% {
     -webkit-transform: rotate(150deg);
-            transform: rotate(150deg);
+    transform: rotate(150deg);
   }
   50% {
     -webkit-transform: rotate(213deg);
-            transform: rotate(213deg);
+    transform: rotate(213deg);
   }
   100% {
     -webkit-transform: rotate(150deg);
-            transform: rotate(150deg);
+    transform: rotate(150deg);
   }
 }
 
 @keyframes satellites {
   0% {
     -webkit-transform: rotate(150deg);
-            transform: rotate(150deg);
+    transform: rotate(150deg);
   }
   50% {
     -webkit-transform: rotate(213deg);
-            transform: rotate(213deg);
+    transform: rotate(213deg);
   }
   100% {
     -webkit-transform: rotate(150deg);
-            transform: rotate(150deg);
+    transform: rotate(150deg);
   }
 }
 
@@ -447,7 +453,7 @@ header nav.bg-light {
 .about-section .about-cards .card {
   border-radius: 20px;
   -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
 }
 
 .about-section .about-cards .card .card-img-top {
@@ -487,7 +493,7 @@ header nav.bg-light {
 .features .container .features-list ul li {
   padding: 5px 0;
   color: #999999;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
@@ -510,7 +516,7 @@ header nav.bg-light {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.1);
 }
 
 .features .container .features-slider-box .carousel-inner .card {
@@ -550,7 +556,7 @@ header nav.bg-light {
 .features .container .features-slider-box .carousel-control-next,
 .features .container .features-slider-box .carousel-control-prev {
   -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .footer-first {
