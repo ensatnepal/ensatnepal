@@ -100,8 +100,9 @@ header nav.bg-light {
 }
 .teams .picture-box {
   height: 362px;
+  width: 300px;
   position: relative;
-  margin-bottom: 28px;
+  margin: auto;
 }
 .teams .picture-box .team-image {
   width: 234px;
