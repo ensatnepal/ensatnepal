@@ -1,16 +1,23 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-h3{
-    @include formatText(28px, 500, 36px, $logoColor);
-    margin-bottom: 20px;
+h3 {
+  @include formatText(28px, 500, 36px, $logoColor);
+  margin-bottom: 20px;
 }
 
-p{
-    @include formatText(16px, 400, 24px, $fontColor);
+p {
+  @include formatText(16px, 400, 24px, $fontColor);
+}
+
+.heading-text {
+  text-align: center !important;
+  color: $logoColor;
+  display: inline-block;
+  padding: 6.5px 22px;
 }

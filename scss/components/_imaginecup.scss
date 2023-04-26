@@ -1,0 +1,17 @@
+.imaginecup {
+  padding: 60px 0 120px 0;
+  .imaginecup-mid {
+    margin: 0 10%;
+    // background-color: red;
+    .imagine-image {
+      max-width: 70%;
+      //   box-shadow: 3px 3px 4px rgba(63, 63, 63, 0.216);
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      padding: 30px;
+      border-radius: 4px;
+      display: block;
+      margin: auto;
+    }
+  }
+}
